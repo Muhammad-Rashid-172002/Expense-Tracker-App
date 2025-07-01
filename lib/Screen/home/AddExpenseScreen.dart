@@ -17,7 +17,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
   String _category = 'General';
   bool _isExpense = true;
 
-  // ✅ Save the expense to Hive database
+  // Save the expense to Hive database
   void _saveExpense() async {
     if (_formKey.currentState!.validate()) {
       final expense = Expense(
