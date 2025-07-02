@@ -1,4 +1,4 @@
-import 'package:expans_traker/Screen/home/homescreen.dart';
+import 'package:expans_traker/Screen/home/splashScreen/splashScreen.dart';
 import 'package:expans_traker/models/expense.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: const Color(0xFF0F172A),
         primaryColor: Colors.amber,
       ),
-      home: const Homescreen(),
+      home: const Splashscreen(),
     );
   }
 }
